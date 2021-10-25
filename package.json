@@ -1,0 +1,19 @@
+{
+  "name": "cy-v8-7-0",
+  "version": "1.0.0",
+  "description": "Sample project for the sixth and last episode of the Cypress Examples playlist of the Talking About Testing YouTube channel.",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress.io",
+    "cypress examples",
+    "talking about testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
