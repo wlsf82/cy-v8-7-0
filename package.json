@@ -4,7 +4,8 @@
   "description": "Sample project for the sixth and last episode of the Cypress Examples playlist of the Talking About Testing YouTube channel.",
   "scripts": {
     "test": "cypress run",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "slow:tests": "cypress run --spec cypress/integration/2-advanced-examples/waiting.spec.js"
   },
   "keywords": [
     "cypress.io",
